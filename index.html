@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>İletişim</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="form-container">
+    <h1>Size Ulaşmamızı İster misiniz?</h1>
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+      <input type="text" name="ad" placeholder="Adınız Soyadınız" required />
+      <input type="email" name="email" placeholder="E-posta adresiniz" required />
+      <textarea name="mesaj" placeholder="Mesajınız" required></textarea>
+      <button type="submit">Gönder</button>
+    </form>
+    <p class="confirmation">Mesajınız başarıyla gönderildi, en kısa sürede sizinle iletişime geçeceğiz.</p>
+  </div>
+</body>
+</html>
